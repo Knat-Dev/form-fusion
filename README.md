@@ -104,7 +104,7 @@ The `FormFactory` component is a declarative way to create forms. It uses the `u
 
 ## Contributing
 
-Contributions to this library are welcome! If you encounter any issues or would like to suggest improvements, please [open an issue](https://github.com/knat/@knat_dev/form-fusion/issues) or submit a pull request.
+Contributions to this library are welcome! If you encounter any issues or would like to suggest improvements, please [open an issue](https://github.com/Knat-Dev/form-fusion/issues) or submit a pull request.
 
 ## License
 
