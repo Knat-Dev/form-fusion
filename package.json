@@ -1,6 +1,6 @@
 {
   "name": "@knat_dev/form-fusion",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A simple, declarative form library for React with Zod validation and react-hook-form integration.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

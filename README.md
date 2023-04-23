@@ -28,7 +28,7 @@ pnpm add @knat_dev/form-fusion
 
 To use `@knat_dev/form-fusion`, first import the necessary components:
 
-```javascript
+```tsx
 import { FormFactory, useFormFactory } from '@knat_dev/form-fusion';
 import { z } from 'zod';
 ```
@@ -37,7 +37,7 @@ import { z } from 'zod';
 
 Create a form schema using Zod:
 
-```javascript
+```tsx
 const formSchema = z.object({
   name: z.string().min(1, 'Name is required'),
   email: z.string().email('Invalid email address'),
@@ -46,7 +46,7 @@ const formSchema = z.object({
 
 Define your form fields and components:
 
-```javascript
+```tsx
 const fields = [
   {
     name: 'name',
@@ -63,7 +63,7 @@ const fields = [
 
 Create a form using the `FormFactory` component:
 
-```javascript
+```tsx
 function MyForm() {
   const handleFormSubmit = (data) => {
     console.log('Form submitted:', data);
@@ -105,6 +105,10 @@ The `FormFactory` component is a declarative way to create forms. It uses the `u
 ## Contributing
 
 Contributions to this library are welcome! If you encounter any issues or would like to suggest improvements, please [open an issue](https://github.com/Knat-Dev/form-fusion/issues) or submit a pull request.
+
+## Disclaimer
+
+Please note that while we strive to make @knat_dev/form-fusion as versatile as possible, it may not work for every form. If you encounter any issues or have any suggestions, we welcome your feedback and contributions to the library.
 
 ## License
 
