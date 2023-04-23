@@ -1,35 +1,35 @@
-# form-fusion
+# @knat_dev/form-fusion
 
 A simple, declarative form library for React with Zod validation and react-hook-form integration.
 
 ## Installation
 
-To install the `form-fusion` package, run one of the following commands depending on your package manager:
+To install the `@knat_dev/form-fusion` package, run one of the following commands depending on your package manager:
 
 **npm:**
 
 ```bash
-npm install form-fusion
+npm install @knat_dev/form-fusion
 ```
 
 **yarn:**
 
 ```bash
-yarn add form-fusion
+yarn add @knat_dev/form-fusion
 ```
 
 **pnpm:**
 
 ```bash
-pnpm add form-fusion
+pnpm add @knat_dev/form-fusion
 ```
 
 ## Usage
 
-To use `form-fusion`, first import the necessary components:
+To use `@knat_dev/form-fusion`, first import the necessary components:
 
 ```javascript
-import { FormFactory, useFormFactory } from 'form-fusion';
+import { FormFactory, useFormFactory } from '@knat_dev/form-fusion';
 import { z } from 'zod';
 ```
 
@@ -104,7 +104,7 @@ The `FormFactory` component is a declarative way to create forms. It uses the `u
 
 ## Contributing
 
-Contributions to this library are welcome! If you encounter any issues or would like to suggest improvements, please [open an issue](https://github.com/knat/form-fusion/issues) or submit a pull request.
+Contributions to this library are welcome! If you encounter any issues or would like to suggest improvements, please [open an issue](https://github.com/knat/@knat_dev/form-fusion/issues) or submit a pull request.
 
 ## License
 
