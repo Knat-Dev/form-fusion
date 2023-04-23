@@ -1,5 +1,5 @@
 {
-  "name": "@knat/form-fusion",
+  "name": "form-fusion",
   "version": "0.1.0",
   "description": "A simple, declarative form library for React with Zod validation and react-hook-form integration.",
   "main": "dist/index.js",
